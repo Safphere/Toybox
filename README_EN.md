@@ -1,94 +1,130 @@
-# Antigravity Tools 🚀
-# Antigravity Tools 🚀
-> Professional AI Account Management & Proxy System (v4.0.5)
+# Toybox 🚀
+> Professional AI Account Management & Proxy System (Community Edition)
 
 <div align="center">
-  <img src="public/icon.png" alt="Antigravity Logo" width="120" height="120" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+  <img src="https://github.com/user-attachments/assets/79ea5e39-b888-4b4c-961b-9fe3f5b187a3" alt="Toybox Logo" width="120" height="120" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
 
-  <h3>Your Personal High-Performance AI Dispatch Gateway</h3>
-  <p>Seamlessly proxy Gemini & Claude. OpenAI-Compatible. Privacy First.</p>
+  <h3>Toybox (Community Edition)</h3>
+  <p>
+    Deeply optimized based on Antigravity, providing extreme frontend/backend performance and native cross-platform support (Windows/macOS/Linux).<br>
+    Driven by community members, your needs are our motivation.
+  </p>
   
   <p>
-    <a href="https://github.com/lbjlaq/Antigravity-Manager">
-      <img src="https://img.shields.io/badge/Version-4.0.5-blue?style=flat-square" alt="Version">
-    </a>
-    <img src="https://img.shields.io/badge/Tauri-v2-orange?style=flat-square" alt="Tauri">
-    <img src="https://img.shields.io/badge/Backend-Rust-red?style=flat-square" alt="Rust">
-    <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square" alt="React">
-    <img src="https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey?style=flat-square" alt="License">
+    <sub>Core code is not yet public; open source will be considered as Stars grow | Welcome to <a href="https://github.com/Safphere/Toybox/issues">Submit Issues</a> for feedback</sub>
   </p>
 
   <p>
-    <a href="#-features">Features</a> • 
+    <img src="https://img.shields.io/badge/Tauri-v2-orange?style=flat-square" alt="Tauri">
+    <img src="https://img.shields.io/badge/Backend-Rust-red?style=flat-square" alt="Rust">
+    <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square" alt="React">
+    <img src="https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey?style=flat-square" alt="License">    
+  </p>
+
+  <h3>
+    <a href="https://github.com/Safphere/Toybox/releases">📥 Download Now</a>
+     | 
+    <a href="#-community">💬 Join Community</a>
+  </h3>
+
+  <p>
+    <sub>👇 Scan to join our WeChat Group for support</sub><br>
+    <img src="docs/images/wechat_group.jpg" width="150" alt="WeChat Group QR Code">
+  </p>
+  <p>
+
+  </p>
+
+  <p>
+    <a href="#-core-features">Core Features</a> • 
     <a href="#-gui-overview">GUI Overview</a> • 
     <a href="#-architecture">Architecture</a> • 
     <a href="#-installation">Installation</a> • 
     <a href="#-quick-integration">Integration</a>
   </p>
-
+  
   <p>
     <a href="./README.md">简体中文</a> | 
     <strong>English</strong>
   </p>
+
 </div>
 
 ---
 
-**Antigravity Tools** is an all-in-one desktop application designed for developers and AI enthusiasts. It perfectly combines multi-account management, protocol conversion, and smart request scheduling to provide you with a stable, high-speed, and low-cost **Local AI Relay Station**.
+**Toybox** is a deeply optimized branch based on Antigravity Tools (v4.0.5). We retained the original core protocols and scheduling logic, while conducting extensive UI refactoring and cross-platform adaptation optimizations.
 
-By leveraging this app, you can transform common Web Sessions (Google/Anthropic) into standardized API interfaces, completely eliminating the protocol gap between different providers.
+To help users distinguish, here are the core changes in Toybox:
 
-## 💖 Sponsors
+## 🚀 Toybox Features & Changes
 
-| <img src="docs/images/packycode_logo.png" width="200" alt="PackyCode Logo"> | Thanks to **PackyCode** for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relays for various services such as Claude Code, Codex, and Gemini. PackyCode provides a special offer for users of this project: Register using [this link](https://www.packyapi.com/register?aff=Ctrler) and enter the **"Ctrler"** coupon code when topping up to enjoy a **10% discount**. |
-| :--- | :--- |
+> [!NOTE]
+> The core logic of this project is forked from Antigravity Tools. Thanks to the original author for their open source contribution. Toybox focuses on providing a more modern interface and broader platform support.
 
-### ☕ Support
+### ✨ New & Optimized (New in Toybox)
+*   **🎨 Brand New UI Design**: Refactored the dashboard, sidebar, and all settings pages to provide a more modern and concise visual experience (as shown above).
+*   **🛠️ Broad Platform Support**: Added deep adaptation and support for **Kilo**, **Codex**, **Copilot**, **Compat**, etc.
+*   **📊 Enhanced Feature Integration**: 
+    *   **Instances**: More flexible multi-instance management.
+    *   **API Proxy**: Core reverse proxy service.
+    *   **Traffic Logs**: Real-time visualized request monitoring.
+    *   **Token Stats**: Detailed usage analysis and charts.
+*   **⚡ Extreme Performance Optimization**: Deeply refactored Frontend-Backend Exchange logic, significantly reducing latency to ensure a silky smooth operation.
+*   **🪟 Deep Cross-Platform Adaptation**: Fixed multiple compatibility issues on Windows, ensuring a consistent smooth experience across Windows/macOS/Linux.
+*   **👥 Community Driven**: Introduced the "Community Edition" concept, responding faster to community needs and merging code.
 
-If you find this project helpful, feel free to buy me a coffee!
+### 🧬 Core Inherited Features (Inherited from Antigravity)
+The following core features are inherited from Antigravity v4.0.5, and the configuration method remains compatible with the original version:
+*   **Account Management**: Addition and management logic for Google/Anthropic accounts.
+*   **Protocol Proxy**: Conversion logic for standard interfaces like `/v1/chat/completions`.
+*   **Model Router**: Regex mapping and load balancing algorithms.
 
-<a href="https://www.buymeacoffee.com/Ctrler" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important;"></a>
+---
 
-| Alipay | WeChat Pay | Buy Me a Coffee |
-| :---: | :---: | :---: |
-| ![Alipay](./docs/images/donate_alipay.png) | ![WeChat](./docs/images/donate_wechat.png) | ![Coffee](./docs/images/donate_coffee.png) |
+## 🍉 About This Project (About)
 
-## 🌟 Detailed Feature Matrix
+> [!NOTE]
+> **Why maintain independently?**
+>
+> On January 26, 2026, the original project had a Git history rewrite event ([Click for details](https://chat.z.ai/s/6a67dd02-01a4-47d9-ae34-6f6941a5b48a)). To ensure stable maintenance and continuous updates, we opened the Toybox repository separately.
 
-### 1. 🎛️ Smart Account Dashboard
+### 📢 Special Notes
+*   **Download & Use**: This project supports Windows/macOS/Linux platforms. Download link is at the top.
+*   **Open Source Status**: Core code is temporarily closed source (to prevent official detection and blocking algorithm updates).
+*   **Feedback**: Changes (such as accessing new platforms or features) are welcome via [Issues](https://github.com/Safphere/Toybox/issues).
+
+## 🌟 Detailed Features
+
+*(Note: The following feature logic is mainly inherited from Antigravity, UI interactions are subject to the new Toybox interface)*
+
+### 1. 🎛️ Smart Account Dashboard (Smart Dashboard) [UI Updated]
 *   **Global Real-time Monitoring**: Instant insight into the health of all accounts, including average remaining quotas for Gemini Pro, Gemini Flash, Claude, and Gemini Image generation.
-*   **Smart Recommendation**: The system uses a real-time algorithm to filter and recommend the "Best Account" based on quota redundancy, supporting **one-click switching**.
-*   **Active Account Snapshot**: Visually displays the specific quota percentage and the last synchronization time of the currently active account.
+*   **Best Account Recommendation**: The system algorithm filters the "Best Account" and supports one-click switching.
+*   **Active Account Snapshot**: Visually displays the specific quota percentage of the currently active account.
 
-### 2. 🔐 Professional AI Account Management & Proxy System
-*   **OAuth 2.0 Authorization (Auto/Manual)**: Pre-generates a copyable authorization URL so you can finish auth in any browser; after the callback, the app auto-completes and saves the account (use “I already authorized, continue” if needed).
-*   **Multi-dimensional Import**: Supports single token entry, JSON batch import, and automatic hot migration from V1 legacy databases.
-*   **Gateway-level Views**: Supports switching between "List" and "Grid" views. Provides 403 Forbidden detection, automatically marking and skipping accounts with permission anomalies.
+### 2. 🔐 Powerful Account Manager (Account Management) [Inherited]
+*   **OAuth 2.0 Authorization**: Supports automatic/manual authorization flows.
+*   **Multi-dimensional Import**: Supports Token entry, JSON batch import.
+*   **Gateway-level Views**: Toybox redesigned the list display style, retaining the core 403 detection function.
 
-### 3.  Protocol Conversion & Relay (API Proxy)
-*   **Multi-Protocol Adaptation (Multi-Sink)**:
-    *   **OpenAI Format**: Provides `/v1/chat/completions` endpoint, compatible with 99% of existing AI apps.
-    *   **Anthropic Format**: Provides native `/v1/messages` interface, supporting all features of **Claude Code CLI** (e.g., chain-of-thought, system prompts).
-    *   **Gemini Format**: Supports direct calls from official Google AI SDKs.
-*   **Smart Self-healing**: When a request encounters `429 (Too Many Requests)` or `401 (Expired)`, the backend triggers **millisecond-level automatic retry and silent rotation**, ensuring business continuity.
+### 3. 🔌 Protocol Conversion & Relay (API Proxy) [Inherited]
+*   **All-Protocol Adaptation**: Perfect support for OpenAI, Anthropic, Gemini format conversion.
+*   **Smart State Self-healing**: Unchanged high-availability retry mechanism.
 
-### 4. 🔀 Model Router Center
-*   **Series-based Mapping**: Classify complex original model IDs into "Series Groups" (e.g., routing all GPT-4 requests uniformly to `gemini-3-pro-high`).
-*   **Expert Redirection**: Supports custom regex-level model mapping for precise control over every request's landing model.
-*   **Tiered Routing [New]**: Automatically prioritizes models based on account tiers (Ultra/Pro/Free) and reset frequencies to ensure stability for high-volume users.
-*   **Silent Background Downgrading [New]**: Intelligently identifies background tasks (e.g., Claude CLI title generation) and reroutes them to Flash models to preserve premium quota.
+### 4. 🔀 Model Router Center (Model Router) [Inherited]
+*   **Series Mapping** & **Expert Redirection**: Configuration logic remains consistent with the original version.
 
-### 5. 🎨 Multimodal & Imagen 3 Support
-*   **Advanced Image Control**: Supports precise control over image generation tasks via OpenAI `size` (e.g., `1024x1024`, `16:9`) parameters or model name suffixes.
-*   **Enhanced Payload Support**: The backend supports payloads up to **100MB** (configurable), more than enough for 4K HD image recognition and processing.
+### 5. 🎨 Multimodal & Imagen 3 Support [Inherited]
+*   Supports OpenAI `size` parameter mapping and huge Payload transmission.
 
-##  GUI Overview
+## 📸 GUI Overview
 
 | | |
 | :---: | :---: |
-| ![Dashboard - Global Quota Monitoring & One-click Switch](docs/images/dashboard-light.png) <br> Dashboard | ![Account List - High-density Quota Display & Smart 403 Labeling](docs/images/accounts-light.png) <br> Account List |
-| ![About Page - About Antigravity Tools](docs/images/about-dark.png) <br> About Page | ![API Proxy - Service Control](docs/images/v3/proxy-settings.png) <br> API Proxy |
-| ![Settings - General Config](docs/images/settings-dark.png) <br> Settings | |
+| <img src="https://github.com/user-attachments/assets/ec4ba995-fd2f-4f13-a8fc-4be05721b8ca" width="100%"> <br> **Dashboard** <br> Newly designed status monitoring center | <img src="https://github.com/user-attachments/assets/dc6efcce-b869-4b40-9593-7ab23ee283e7" width="100%"> <br> **Accounts** <br> Optimized card/list view |
+| <img src="https://github.com/user-attachments/assets/845efe3a-74df-4fb9-a05c-9f8e954113df" width="100%"> <br> **Service Status** <br> Clear service running metrics and connectivity check | <img src="https://github.com/user-attachments/assets/47de1ed8-e868-4c48-9458-8d2116207398" width="100%"> <br> **Model Mapping** <br> Visualized routing rules and redirection |
+| <img src="https://github.com/user-attachments/assets/3ebab71f-a589-4457-8725-cc45bf44f7d2" width="100%"> <br> **Settings** <br> Unified cross-platform settings panel | <img src="https://github.com/user-attachments/assets/f53390ae-aa65-4fab-9597-5519975d43b7" width="100%"> <br> **Traffic Monitor** <br> Real-time request logs and debug info |
+| <img src="https://github.com/user-attachments/assets/89f3bc45-925a-43ca-bd57-0ce11d9b0e78" width="100%"> <br> **About Toybox (About)** <br> Community edition exclusive branding and version info | |
 
 ### 💡 Usage Examples
 
@@ -209,7 +245,11 @@ Due to macOS security gatekeeper, non-App Store apps might show this. Run this i
 sudo xattr -rd com.apple.quarantine "/Applications/Antigravity Tools.app"
 ```
 
-## 🔌 Quick Integration Examples
+### 🔌 Quick Integration Examples
+
+> [!TIP]
+> **Tip**: The following integration flow is inherited from Antigravity and works equally well in Toybox.
+> Toybox has only optimized the interface; core configuration parameters (such as Base URL, API Key logic) are effectively identical.
 
 ### 🔐 OAuth Authorization Flow (Add Account)
 1. Go to `Accounts` → `Add Account` → `OAuth`.
@@ -220,13 +260,20 @@ sudo xattr -rd com.apple.quarantine "/Applications/Antigravity Tools.app"
 > Note: the auth URL contains a one-time local callback port. Always use the latest URL shown in the dialog. If the app isn’t running or the dialog is closed during auth, the browser may show `localhost refused connection`.
 
 ### How to use with Claude Code CLI?
-1. Start Antigravity service in the "API Proxy" tab.
-2. In your terminal:
+1.  Start Antigravity service in the "API Proxy" tab.
+2.  In your terminal:
 ```bash
 export ANTHROPIC_API_KEY="sk-antigravity"
 export ANTHROPIC_BASE_URL="http://127.0.0.1:8045"
 claude
 ```
+
+### How to use with Kilo Code?
+1.  **Protocol Selection**: It is recommended to prioritize using **Gemini Protocol**.
+2.  **Base URL**: Enter `http://127.0.0.1:8045`.
+3.  **Note**: 
+    - **OpenAI Protocol Limitation**: When Kilo Code uses OpenAI mode, its request path overlays to produce a non-standard path like `/v1/chat/completions/responses`, causing Antigravity to return 404. Therefore, please ensure you select Gemini mode after entering the Base URL.
+    - **Model Mapping**: The model names in Kilo Code may not match Antigravity defaults. If connection fails, please set up custom mappings in the "Model Mapping" page and check **log files** for debugging.
 
 ### How to use in Python?
 ```python
@@ -243,6 +290,100 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 ```
+
+### How to use Image Generation (Imagen 3)?
+
+#### Method 1: OpenAI Images API (Recommended)
+```python
+import openai
+
+client = openai.OpenAI(
+    api_key="sk-antigravity",
+    base_url="http://127.0.0.1:8045/v1"
+)
+
+# Generate Image
+response = client.images.generate(
+    model="gemini-3-pro-image",
+    prompt="A futuristic city, cyberpunk, neon lights",
+    size="1920x1080",      # Supports any WIDTHxHEIGHT format, auto-calculates aspect ratio
+    quality="hd",          # "standard" | "hd" | "medium"
+    n=1,
+    response_format="b64_json"
+)
+
+# Save Image
+import base64
+image_data = base64.b64decode(response.data[0].b64_json)
+with open("output.png", "wb") as f:
+    f.write(image_data)
+```
+
+**Supported Parameters**:
+- **`size`**: Any `WIDTHxHEIGHT` format (e.g., `1280x720`, `1024x1024`, `1920x1080`), automatically calculated and mapped to standard aspect ratios (21:9, 16:9, 9:16, 4:3, 3:4, 1:1)
+- **`quality`**: 
+  - `"hd"` → 4K Resolution (High Quality)
+  - `"medium"` → 2K Resolution (Medium Quality)
+  - `"standard"` → Default Resolution (Standard Quality)
+- **`n`**: Number of images to generate (1-10)
+- **`response_format`**: `"b64_json"` or `"url"` (Data URI)
+
+#### Method 2: Chat API + Parameter Settings (✨ New)
+
+**All Protocols** (OpenAI, Claude) Chat APIs now support passing `size` and `quality` parameters directly:
+
+```python
+# OpenAI Chat API
+response = client.chat.completions.create(
+    model="gemini-3-pro-image",
+    size="1920x1080",      # ✅ Supports any WIDTHxHEIGHT format
+    quality="hd",          # ✅ "standard" | "hd" | "medium"
+    messages=[{"role": "user", "content": "A futuristic city"}]
+)
+```
+
+```bash
+# Claude Messages API
+curl -X POST http://127.0.0.1:8045/v1/messages \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: sk-antigravity" \
+  -d '{
+    "model": "gemini-3-pro-image",
+    "size": "1280x720",
+    "quality": "hd",
+    "messages": [{"role": "user", "content": "A cute cat"}]
+  }'
+```
+
+**Parameter Priority**: Request Body Parameters > Model Suffix
+
+#### Method 3: Chat Interface + Model Suffix
+```python
+response = client.chat.completions.create(
+    model="gemini-3-pro-image-16-9-4k",  # Format: gemini-3-pro-image-[Ratio]-[Quality]
+    messages=[{"role": "user", "content": "A futuristic city"}]
+)
+```
+
+**Model Suffix Explanation**:
+- **Aspect Ratio**: `-16-9`, `-9-16`, `-4-3`, `-3-4`, `-21-9`, `-1-1`
+- **Quality**: `-4k` (4K), `-2k` (2K), No suffix (Standard)
+- **Example**: `gemini-3-pro-image-16-9-4k` → 16:9 Ratio + 4K Resolution
+
+#### Method 4: Client Settings (Cherry Studio, etc.)
+In clients that support the OpenAI protocol (like Cherry Studio), you can configure image generation parameters via the **Model Settings** page:
+
+1. **Enter Model Settings**: Select `gemini-3-pro-image` model
+2. **Configure Parameters**:
+   - **Size**: Enter any `WIDTHxHEIGHT` format (e.g., `1920x1080`, `1024x1024`)
+   - **Quality**: Select `standard` / `hd` / `medium`
+   - **Number**: Set number of images to generate (1-10)
+3. **Send Request**: Simply input the image description in the chat box
+
+**Parameter Mapping Rules**:
+- `size: "1920x1080"` → Auto-calculated to `16:9` aspect ratio
+- `quality: "hd"` → Mapped to `4K` resolution
+- `quality: "medium"` → Mapped to `2K` resolution
 
 ## 📝 Developer & Community
 

@@ -1,19 +1,32 @@
-# Antigravity Tools 🚀
-> 专业的 AI 账号管理与协议反代系统 (v4.0.5)
-<div align="center">
-  <img src="public/icon.png" alt="Antigravity Logo" width="120" height="120" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+# Toybox 🚀
+> 专业的 AI 账号管理与协议反代系统 (Community Edition)
 
-  <h3>您的个人高性能 AI 调度网关</h3>
-  <p>不仅仅是账号管理，更是打破 API 调用壁垒的终极解决方案。</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/79ea5e39-b888-4b4c-961b-9fe3f5b187a3" alt="Toybox Logo" width="120" height="120" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+
+  <h3>Toybox (Community Edition)</h3>
+
   
   <p>
-    <a href="https://github.com/lbjlaq/Antigravity-Manager">
-      <img src="https://img.shields.io/badge/Version-4.0.5-blue?style=flat-square" alt="Version">
-    </a>
+    <sub>核心代码暂未公开，Star 增长后将考虑开源 | 欢迎 <a href="https://github.com/Safphere/Toybox/issues">提 Issue</a> 反馈需求</sub>
+  </p>
+
+  <p>
     <img src="https://img.shields.io/badge/Tauri-v2-orange?style=flat-square" alt="Tauri">
     <img src="https://img.shields.io/badge/Backend-Rust-red?style=flat-square" alt="Rust">
     <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square" alt="React">
     <img src="https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey?style=flat-square" alt="License">
+  </p>
+
+  <h3>
+    <a href="https://github.com/Safphere/Toybox/releases">📥 立即下载 (Download)</a>
+     | 
+    <a href="#-社区交流">💬 加入群聊 (Join Group)</a>
+  </h3>
+
+  <p>
+    <sub>👇 扫码加入用户群，获取最新资讯与帮助</sub><br>
+    <img src="docs/images/wechat_group.jpg" width="150" alt="WeChat Group QR Code">
   </p>
 
   <p>
@@ -32,61 +45,88 @@
 
 ---
 
-**Antigravity Tools** 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换和智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的 **本地 AI 中转站**。
+**Toybox** 是基于 Antigravity Tools (v4.0.5) 的深度优化分支。
 
-通过本应用，您可以将常见的 Web 端 Session (Google/Anthropic) 转化为标准化的 API 接口，消除不同厂商间的协议鸿沟。
+基于 Antigravity 深度优化，优化了前后端性能与原生跨平台支持 (Windows/macOS/Linux)。
 
-## 💖 赞助商 (Sponsors)
+我们保留了原项目的核心协议与调度逻辑，并在此基础上进行了 UI 重构与多平台接入适配优化。
 
-| <img src="docs/images/packycode_logo.png" width="200" alt="PackyCode Logo"> | 感谢 **PackyCode** 对本项目的赞助！PackyCode 是一家可靠高效的 API 中转服务商，提供 Claude Code、Codex、Gemini 等多种服务的中转。PackyCode 为本项目的用户提供了特别优惠：使用[此链接](https://www.packyapi.com/register?aff=Ctrler)注册，并在充值时输入 **“Ctrler”** 优惠码即可享受 **九折优惠**。 |
-| :--- | :--- |
 
-### ☕ 支持项目 (Support)
+由社区成员驱动更新，您的需求是我们前进的动力。
 
-如果您觉得本项目对您有所帮助，欢迎打赏作者！
 
-<a href="https://www.buymeacoffee.com/Ctrler" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="请我喝杯咖啡" style="height: 60px !important; width: 217px !important;"></a>
+为了方便用户区分，以下是 Toybox 的核心变更点：
 
-| 支付宝 (Alipay) | 微信支付 (WeChat) | Buy Me a Coffee |
-| :---: | :---: | :---: |
-| ![Alipay](./docs/images/donate_alipay.png) | ![WeChat](./docs/images/donate_wechat.png) | ![Coffee](./docs/images/donate_coffee.png) |
+## 🚀 Toybox 特性与变更 (Features & Changes)
+
+> [!NOTE]
+> 本项目核心逻辑 Fork 自 Antigravity Tools，感谢原作者的开源贡献。Toybox 专注于提供更现代化的界面与更广泛的平台支持。
+
+### ✨ 新增与优化 (New in Toybox)
+*   **🎨 全新 UI 设计**: 重构了仪表盘、侧边栏及所有设置页面，提供更加现代、简洁的视觉体验（如上图所示）。
+*   **🛠️ 广泛平台支持**: 新增对 **Kilo**, **Codex**, **Copilot**, **Compat** 等平台的深度适配与支持。
+*   **📊 增强功能集成**: 
+    *   **实例 (Instances)**: 更灵活的多实例管理。
+    *   **API 反代 (API Proxy)**: 核心反向代理服务。
+    *   **流量日志 (Traffic Logs)**: 实时可视化的请求监控。
+    *   **Token 统计 (Token Stats)**: 详细的用量分析与图表。
+*   **⚡ 极致性能优化**: 深度重构前后端数据交换逻辑 (Frontend-Backend Exchange)，显著降低延迟，确保操作丝般顺滑。
+*   **🪟 深度跨平台适配**: 修复了 Windows 平台下的多处兼容性问题，确保在 Windows/macOS/Linux 上拥有完全一致的流畅体验。
+*   **👥 社区驱动**: 引入“社区版 (Community Edition)”概念，将会更快地响应社区需求并合并代码。
+
+### 🧬 核心继承功能 (Inherited from Antigravity)
+以下核心功能继承自 Antigravity v4.0.5，配置方式与原版保持兼容：
+*   **账号管理**: Google/Anthropic 账号的添加与管理逻辑。
+*   **协议反代**: `/v1/chat/completions` 等标准接口的转换逻辑。
+*   **模型路由**: 正则表达式映射与负载均衡算法。
+
+---
+
+## 🍉 关于本项目 (About)
+
+> [!NOTE]
+> **为什么要独立维护？**
+>
+> 2026年1月26日，原项目发生 Git 历史重写事件 ([点击围观详情](https://chat.z.ai/s/6a67dd02-01a4-47d9-ae34-6f6941a5b48a))。为了确保更稳定的维护和持续更新，我们单独开设了 Toybox 仓库。
+
+### 📢 特别说明
+*   **下载使用**: 本项目支持 Windows/macOS/Linux 全平台，顶部已有下载链接。
+*   **开源状态**: 核心代码暂时不开源（防止被官方盯上进行封号算法更新）。
+*   **需求反馈**: 有需求（如接入新平台或功能）欢迎 [提 Issue](https://github.com/Safphere/Toybox/issues)。
 
 ## 🌟 深度功能解析 (Detailed Features)
 
-### 1. 🎛️ 智能账号仪表盘 (Smart Dashboard)
+*(注：以下功能逻辑主要继承自 Antigravity，UI 交互以 Toybox 新版界面为准)*
+
+### 1. 🎛️ 智能账号仪表盘 (Smart Dashboard) [UI Updated]
 *   **全局实时监控**: 一眼洞察所有账号的健康状况，包括 Gemini Pro、Gemini Flash、Claude 以及 Gemini 绘图的 **平均剩余配额**。
-*   **最佳账号推荐 (Smart Recommendation)**: 系统会根据当前所有账号的配额冗余度，实时算法筛选并推荐“最佳账号”，支持 **一键切换**。
-*   **活跃账号快照**: 直观显示当前活跃账号的具体配额百分比及最后同步时间。
+*   **最佳账号推荐**: 系统算法筛选“最佳账号”，支持一键切换。
+*   **活跃账号快照**: 直观显示当前活跃账号的具体配额百分比。
 
-### 2. 🔐 强大的账号管家 (Account Management)
-*   **OAuth 2.0 授权（自动/手动）**: 添加账号时会提前生成可复制的授权链接，支持在任意浏览器完成授权；回调成功后应用会自动完成并保存（必要时可点击“我已授权，继续”手动收尾）。
-*   **多维度导入**: 支持单条 Token 录入、JSON 批量导入（如来自其他工具的备份），以及从 V1 旧版本数据库自动热迁移。
-*   **网关级视图**: 支持“列表”与“网格”双视图切换。提供 403 封禁检测，自动标注并跳过权限异常的账号。
+### 2. 🔐 强大的账号管家 (Account Management) [Inherited]
+*   **OAuth 2.0 授权**: 支持自动/手动授权流程。
+*   **多维度导入**: 支持 Token 录入、JSON 批量导入。
+*   **网关级视图**: Toybox 重新设计了列表展示样式，保留了核心的 403 检测功能。
 
-### 3. 🔌 协议转换与中继 (API Proxy)
-*   **全协议适配 (Multi-Sink)**:
-    *   **OpenAI 格式**: 提供 `/v1/chat/completions` 端点，兼容 99% 的现有 AI 应用。
-    *   **Anthropic 格式**: 提供原生 `/v1/messages` 接口，支持 **Claude Code CLI** 的全功能（如思思维链、系统提示词）。
-    *   **Gemini 格式**: 支持 Google 官方 SDK 直接调用。
-*   **智能状态自愈**: 当请求遇到 `429 (Too Many Requests)` 或 `401 (Expire)` 时，后端会毫秒级触发 **自动重试与静默轮换**，确保业务不中断。
+### 3. 🔌 协议转换与中继 (API Proxy) [Inherited]
+*   **全协议适配**: 完美支持 OpenAI、Anthropic、Gemini 格式转换。
+*   **智能状态自愈**: 不变的高可用重试机制。
 
-### 4. 🔀 模型路由中心 (Model Router)
-*   **系列化映射**: 您可以将复杂的原始模型 ID 归类到“规格家族”（如将所有 GPT-4 请求统一路由到 `gemini-3-pro-high`）。
-*   **专家级重定向**: 支持自定义正则表达式级模型映射，精准控制每一个请求的落地模型。
-*   **智能分级路由 (Tiered Routing)**: [新] 系统根据账号类型（Ultra/Pro/Free）和配额重置频率自动优先级排序，优先消耗高速重置账号，确保高频调用下的服务稳定性。
-*   **后台任务静默降级**: [新] 自动识别 Claude CLI 等工具生成的后台请求（如标题生成），智能重定向至 Flash 模型，保护高级模型配额不被浪费。
+### 4. 🔀 模型路由中心 (Model Router) [Inherited]
+*   **系列化映射** & **专家级重定向**: 配置逻辑与原版保持一致。
 
-### 5. 🎨 多模态与 Imagen 3 支持
-*   **高级画质控制**: 支持通过 OpenAI `size` (如 `1024x1024`, `16:9`) 参数自动映射到 Imagen 3 的相应规格。
-*   **超强 Body 支持**: 后端支持高达 **100MB** (可配置) 的 Payload，处理 4K 高清图识别绰绰有余。
+### 5. 🎨 多模态与 Imagen 3 支持 [Inherited]
+*   支持 OpenAI `size` 参数映射及大 Payload 传输。
 
 ## 📸 界面导览 (GUI Overview)
 
 | | |
 | :---: | :---: |
-| ![仪表盘 - 全局配额监控与一键切换](docs/images/dashboard-light.png) <br> 仪表盘 | ![账号列表 - 高密度配额展示与 403 智能标注](docs/images/accounts-light.png) <br> 账号列表 |
-| ![关于页面 - 关于 Antigravity Tools](docs/images/about-dark.png) <br> 关于页面 | ![API 反代 - 服务控制](docs/images/v3/proxy-settings.png) <br> API 反代 |
-| ![系统设置 - 通用配置](docs/images/settings-dark.png) <br> 系统设置 | |
+| <img src="https://github.com/user-attachments/assets/ec4ba995-fd2f-4f13-a8fc-4be05721b8ca" width="100%"> <br> **仪表盘 (Dashboard)** <br> 全新设计的状态监控中心 | <img src="https://github.com/user-attachments/assets/dc6efcce-b869-4b40-9593-7ab23ee283e7" width="100%"> <br> **账号管理 (Accounts)** <br> 优化的卡片式/列表式视图 |
+| <img src="https://github.com/user-attachments/assets/845efe3a-74df-4fb9-a05c-9f8e954113df" width="100%"> <br> **服务状态 (Service Status)** <br> 清晰的服务运行指标与连通性检测 | <img src="https://github.com/user-attachments/assets/47de1ed8-e868-4c48-9458-8d2116207398" width="100%"> <br> **模型映射 (Model Mapping)** <br> 可视化配置路由规则与重定向 |
+| <img src="https://github.com/user-attachments/assets/3ebab71f-a589-4457-8725-cc45bf44f7d2" width="100%"> <br> **系统设置 (Settings)** <br> 统一的跨平台设置面板 | <img src="https://github.com/user-attachments/assets/f53390ae-aa65-4fab-9597-5519975d43b7" width="100%"> <br> **流量监控 (Traffic Monitor)** <br> 实时请求日志与调试信息 |
+| <img src="https://github.com/user-attachments/assets/89f3bc45-925a-43ca-bd57-0ce11d9b0e78" width="100%"> <br> **关于 Toybox (About)** <br> 社区版专属标识与版本信息 | |
+
 
 ### 💡 使用案例 (Usage Examples)
 
@@ -220,6 +260,10 @@ Copyright © 2024-2026 [lbjlaq](https://github.com/lbjlaq)
     ```
 
 ## 🔌 快速接入示例
+
+> [!TIP]
+> **提示**: 以下接入流程继承自 Antigravity，在 Toybox 中同样适用。
+> Toybox 仅在界面上做了优化，核心配置参数（如 Base URL, API Key 逻辑）完全一致。
 
 ### 🔐 OAuth 授权流程（添加账号）
 1. 打开“Accounts / 账号” → “添加账号” → “OAuth”。
